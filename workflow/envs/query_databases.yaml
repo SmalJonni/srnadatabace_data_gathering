@@ -1,0 +1,16 @@
+channels:
+    - bioconda
+    - conda-forge
+    - anaconda
+dependencies:
+  - python =3.8
+  - jupyter =1.0
+  - jupyterlab_code_formatter =1.4
+  - entrez-direct =16.2
+  - biopython =1.79
+  - pandas =1.4.2
+  - tqdm =4.64.0
+  - joblib =1.1.0
+  - postgresql =12.9
+  - entrez-direct =16.2
+  - biopython =1.79

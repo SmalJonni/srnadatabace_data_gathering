@@ -1,0 +1,14 @@
+configfile: "./config/config.yaml"
+
+import os
+
+OUT_PATH=config["output_path"]
+
+include: "rules/gather_databases.smk"
+include: "rules/filter.smk"
+include: "rules/add_info.smk"
+include: "rules/predict_novel.smk"
+
+rule all:
+	input:
+		os.path.join(OUT_PATH,"final/result.hdf5")

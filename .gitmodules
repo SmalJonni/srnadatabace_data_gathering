@@ -1,0 +1,4 @@
+[submodule "resources/sRNARFTarget"]
+	path = resources/sRNARFTarget
+	url = https://github.com/BioinformaticsLabAtMUN/sRNARFTarget.git
+	branch = master

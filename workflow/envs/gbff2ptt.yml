@@ -1,0 +1,7 @@
+name: gbff2ptt
+channels:
+ - anaconda
+ - bioconda
+dependencies:
+ - perl==5.26.2
+ - perl-bioperl==1.7.2

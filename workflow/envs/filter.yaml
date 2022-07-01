@@ -1,0 +1,11 @@
+channels:
+  - bioconda
+  - anaconda
+  - conda-forge
+  - r
+dependencies:
+  - jupyter =1.0
+  - jupyterlab_code_formatter =1.4
+  - r-taxize =0.9.100
+  - r-dplyr =1.0.9
+  - r-irkernel =1.3

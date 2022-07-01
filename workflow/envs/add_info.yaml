@@ -1,0 +1,12 @@
+channels:
+  - bioconda
+  - anaconda
+  - conda-forge
+dependencies:
+  - viennarna =2.5.1
+  - jupyter =1.0
+  - jupyterlab_code_formatter =1.4
+  - h5py =3.6
+  - pandas =1.4.2
+  - pytables =3.7.0
+  - pytaxonkit =0.7.2

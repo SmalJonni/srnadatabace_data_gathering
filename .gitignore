@@ -1,0 +1,7 @@
+.snakemake/
+results/
+logs/
+.nextflo*
+PickledModelData
+sRNARFTargetResult/
+work
